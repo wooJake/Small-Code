@@ -16,7 +16,8 @@ int main(){
      cout << endl;
      
      int x = decNumber;
-     
+
+     //Read the output from bottom to top to get your answer.
      for(int i = 0; x >= 1; ++i){
           
           x /= base;
